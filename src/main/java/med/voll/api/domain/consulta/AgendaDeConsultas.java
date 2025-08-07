@@ -1,6 +1,9 @@
 package med.voll.api.domain.consulta;
 
 import med.voll.api.domain.ValidacaoException;
+import med.voll.api.domain.consulta.dto.DadosAgendamentoConsulta;
+import med.voll.api.domain.consulta.dto.DadosCancelamentoConsulta;
+import med.voll.api.domain.consulta.dto.DadosDetalhamentoConsulta;
 import med.voll.api.domain.consulta.validacoes.agendamento.ValidadorAgendamentoDeConsulta;
 import med.voll.api.domain.consulta.validacoes.cancelamento.ValidadorCancelamentoDeConsulta;
 import med.voll.api.domain.medico.Medico;

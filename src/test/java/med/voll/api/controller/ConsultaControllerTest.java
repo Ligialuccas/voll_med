@@ -2,8 +2,8 @@ package med.voll.api.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import med.voll.api.domain.consulta.AgendaDeConsultas;
-import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
-import med.voll.api.domain.consulta.DadosDetalhamentoConsulta;
+import med.voll.api.domain.consulta.dto.DadosAgendamentoConsulta;
+import med.voll.api.domain.consulta.dto.DadosDetalhamentoConsulta;
 import med.voll.api.domain.medico.Especialidade;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
